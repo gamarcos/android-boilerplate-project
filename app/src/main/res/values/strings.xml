@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">coroutines-sunflower</string>
+
+    <item name="error_connection_unavailable" type="string">Connection not available</item>
+    <item name="error_connection_available" type="string">Connection available</item>
+
+    <item name="menu_search_title" type="string">Search</item>
+
+    <item name="error_title" type="string">We have a problem</item>
+    <item name="error_description" type="string">Oops, something went wrong!</item>
+
+    <item name="empty_error_title" type="string">No results found</item>
+    <item name="empty_error_description" type="string">"We can't find any item matching your search"</item>
+
+    <item name="feature_in_progress" type="string">Feature in progress</item>
 </resources>

@@ -2,7 +2,7 @@ package br.com.gabrielmarcos.coroutines_sunflower.di.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import br.com.gabrielmarcos.coroutines_sunflower.WeatherViewModel
+import br.com.gabrielmarcos.coroutines_sunflower.weather.WeatherViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

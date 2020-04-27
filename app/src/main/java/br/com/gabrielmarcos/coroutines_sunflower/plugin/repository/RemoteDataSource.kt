@@ -5,6 +5,8 @@ import javax.inject.Inject
 
 class RemoteDataSource @Inject constructor(private val service: WeatherService) : BaseDataSource() {
 
-    suspend fun fetchData() = getResult { service.getAutocompleteSuggestions() }
+    suspend fun searchLocalities(search: String) = getResult { service.getAutocompleteSuggestions(search = search) }
+
+    suspend fun getForecasts(key: String) = getResult { service.getForecasts(locationsKey = key) }
 
 }

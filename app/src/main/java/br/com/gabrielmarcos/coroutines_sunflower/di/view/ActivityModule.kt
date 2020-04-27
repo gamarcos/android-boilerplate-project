@@ -1,6 +1,6 @@
 package br.com.gabrielmarcos.coroutines_sunflower.di.view
 
-import br.com.gabrielmarcos.coroutines_sunflower.MainActivity
+import br.com.gabrielmarcos.coroutines_sunflower.weather.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
